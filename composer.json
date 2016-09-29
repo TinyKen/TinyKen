@@ -1,0 +1,16 @@
+{
+  "require": {
+    "tinyken/framework":"1.0.x-dev",
+    "illuminate/database": "*",
+    "filp/whoops": "*",
+    "nette/mail": "*",
+    "predis/predis": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "services"
+    ]
+  }
+}
